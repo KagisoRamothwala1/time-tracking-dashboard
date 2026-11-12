@@ -1,3 +1,17 @@
+@font-face {
+  font-family:'Rubik-Regular'; 
+  src: url('../fonts/Rubik/static/Rubik-Regular.ttf');        
+  font-weight: normal;   
+  font-style: normal; 
+}
+
+@font-face {
+  font-family:'Rubik-Bold'; 
+  src: url('../fonts/Rubik/static/Rubik-Bold.ttf');   
+  font-weight: bold;   
+  font-style: normal; 
+}
+
 html, body{
     height: 100%;
 }
