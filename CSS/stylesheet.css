@@ -12,6 +12,34 @@
   font-style: normal; 
 }
 
+@font-face {
+  font-family:'Manrope-Regular'; 
+  src: url('../fonts/Rubik/Manrope/static/Manrope-Regular.ttf');        
+  font-weight: normal;   
+  font-style: normal; 
+}
+
+@font-face {
+  font-family:'Manrope-Bold'; 
+  src: url('../fonts/Rubik/Manrope/static/Manrope-Bold.ttf');   
+  font-weight: bold;   
+  font-style: normal; 
+}
+
+@font-face {
+  font-family:'Roboto-Regular'; 
+  src: url('../fonts/Rubik/Roboto/static/Roboto-Regular.ttf');        
+  font-weight: normal;   
+  font-style: normal; 
+}
+
+@font-face {
+  font-family:'Roboto-Bold'; 
+  src: url('../fonts/Rubik/Roboto/static/Roboto-Bold.ttf');   
+  font-weight: bold;   
+  font-style: normal; 
+}
+
 html, body{
     height: 100%;
 }
@@ -32,6 +60,9 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    column-gap: 19px;
+    margin-inline: 16px;
+
 }
 
 .container1{
@@ -43,8 +74,8 @@ body{
 
 .profileCtn{
     background-color: hsl(246, 80%, 60%);
-    width: 203px;
-    height: 141px;
+    width: 213px;
+    height: 287px;
     border-radius: 10px 10px 10px 10px;
     display: flex;
     flex-direction: column;
@@ -53,7 +84,8 @@ body{
 }
 
 .imgCtn{
-
+  padding-top: 28px;
+  padding-bottom: 22px;
 }
 
 .jeremyImg{
@@ -67,26 +99,48 @@ body{
 }
 
 .schedulerCtn{
-    background-color: hsl(236, 44%, 20%);
-    height: 131px;
-    width: 203px;
-    border-radius: 0px 0px 10px 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(236, 44%, 20%);
+    height: 112px;
+    width: 213px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .textCtn{
     display: flex;
     flex-direction: column;
     margin-inline: 20px;
+    padding-bottom: 131px;
+    font-family: 'Rubik-Regular';
 }
 
 .reportCtn{
-
+    font-size: 13px;
 }
 
 .nameCtn{
+    font-size: xx-large;
+    
+}
 
+.daily, .Weekly, .Monthly{
+    font-family: 'Rubik-Regular';
+    font-size: 14px;
+    color: hsl(236, 32%, 59%);
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.daily{
+    padding-top: 3px;
+}
+
+.daily:hover, .Weekly:hover, .Monthly:hover{
+    color: white;
+    cursor: pointer;
 }
 
 .workCtn{
