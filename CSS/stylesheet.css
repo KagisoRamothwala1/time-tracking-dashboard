@@ -72,6 +72,15 @@ body{
     align-items: center;
 }
 
+.container2{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 225px;
+  grid-column-gap: 10px;
+}
+
 .profileCtn{
     background-color: hsl(246, 80%, 60%);
     width: 213px;
@@ -144,7 +153,10 @@ body{
 }
 
 .workCtn{
-
+  height: 178px;
+  width: 229px;
+  background-color: hsl(236, 44%, 20%);
+  border-radius: 13px;
 }
 
 .bannerCtn{
@@ -152,23 +164,43 @@ body{
 }
 
 .playCtn{
-
+  height: 178px;
+  width: 229px;
+  background-color: hsl(236, 44%, 20%);
+  border-radius: 13px;
 }
 
 .studyCtn{
-
+  height: 178px;
+  width: 229px;
+  background-color: hsl(236, 44%, 20%);
+  border-radius: 13px;
 }
 
 .execerciseCtn{
-
+  height: 178px;
+  width: 229px;
+  background-color: hsl(236, 44%, 20%);
+  border-radius: 13px;
 }
 
 .socialCtn{
-
+  height: 178px;
+  width: 229px;
+  background-color: hsl(236, 44%, 20%);
+  border-radius: 13px;
 }
 
 .selfcareCtn{
+  height: 178px;
+  width: 229px;
+  background-color: hsl(236, 44%, 20%);
+  border-radius: 13px;
+}
 
+.workCtn:hover, .playCtn:hover, .studyCtn:hover, .execerciseCtn:hover, .socialCtn:hover, .selfcareCtn:hover{
+  background-color: hsl(236, 41%, 34%);
+  cursor: pointer;
 }
 
 .footer{
