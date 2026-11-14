@@ -78,7 +78,8 @@ body{
   align-items: center;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 225px;
-  grid-column-gap: 10px;
+  grid-column-gap: 6px;
+  grid-row-gap: 16px;
 }
 
 .profileCtn{
@@ -159,8 +160,111 @@ body{
   border-radius: 13px;
 }
 
-.bannerCtn{
+.workbannerCtn{
+  background-color: hsl(15, 100%, 70%);
+  width: 229px;
+  height: 80px;
+  border-radius: 10px 10px 0px 0px;
+  margin: -31px;
+  display: flex;
+  justify-content: right;
+}
 
+.PlaybannerCtn{
+  background-color: hsl(195, 74%, 62%);
+  width: 229px;
+  height: 80px;
+  border-radius: 10px 10px 0px 0px;
+  margin: -31px;
+  display: flex;
+  justify-content: right; 
+}
+
+.StudybannerCtn{
+  background-color: hsl(348, 100%, 68%);
+  width: 229px;
+  height: 80px;
+  border-radius: 10px 10px 0px 0px;
+  margin: -31px;
+  display: flex;
+  justify-content: right; 
+}
+
+.ExercisebannerCtn{
+  background-color: hsl(145, 58%, 55%);
+  width: 229px;
+  height: 80px;
+  border-radius: 10px 10px 0px 0px;
+  margin: -31px;
+  display: flex;
+  justify-content: right; 
+}
+
+.SocialbannerCtn{
+  background-color: hsl(264, 64%, 52%);
+  width: 229px;
+  height: 80px;
+  border-radius: 10px 10px 0px 0px;
+  margin: -31px;
+  display: flex;
+  justify-content: right; 
+}
+
+.SelfCarebannerCtn{
+  background-color: hsl(43, 84%, 65%);
+  width: 229px;
+  height: 80px;
+  border-radius: 10px 10px 0px 0px;
+  margin: -31px;
+  display: flex;
+  justify-content: right; 
+}
+
+.workimg{
+  padding-right: 12px;
+  height: 65px;
+  width: 63px;
+}
+
+.playimg{
+  padding-right: 12px;
+  height: 65px;
+  width: 63px;
+}
+
+.studyimg{
+  padding-right: 12px;
+  height: 65px;
+  width: 63px;
+}
+
+.exerciseimg{
+  padding-right: 12px;
+  height: 65px;
+  width: 63px;
+}
+
+.socialimg{
+  padding-right: 12px;
+  height: 65px;
+  width: 63px;
+}
+
+.selfcareimg{
+  padding-right: 12px;
+  height: 65px;
+  width: 63px;
+}
+
+.selectorCtn{
+  display: flex;
+  justify-content: right;
+  padding-right: 16px;
+  padding-top: 18px;
+}
+
+.selectorCtn:hover{
+  cursor: pointer;
 }
 
 .playCtn{
@@ -205,4 +309,8 @@ body{
 
 .footer{
 
+}
+
+@media (max-width: 375px) {
+ 
 }
