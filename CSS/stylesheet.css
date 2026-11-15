@@ -271,14 +271,44 @@ body{
 }
 
 .selectorCtn{
-display: flex;
+  display: flex;
   justify-content: right;
   padding-right: 16px;
-  margin-top: -16px;
+  margin-top: -24px;
   padding-bottom: 32px;
 }
 
-.selectorCtn:hover{
+button{
+ background-color: hsl(236, 44%, 20%);
+ border-style: unset;
+}
+
+.menu{
+  position: absolute;
+  top: 110%;
+  width: 160px;
+  border-radius: 10px;
+  border: 1x solid hsl(236, 44%, 20%);
+  padding: 6px 0;
+  display: flex;
+}
+
+.menu li{
+  list-style: none;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.menu li:hover{
+    background-color: hsl(236, 44%, 20%);
+}
+
+.selectorCtnfocus-within .menu{
+  display: block;
+}
+
+button:hover{
   cursor: pointer;
 }
 
